@@ -1,0 +1,8 @@
+Metric,Driver,Denominator,Level,Parent,Order,Numerator Type,Denominator Type,ChangeColumns,Attributes
+PO_Cost,PO_Cost/Order_No,Order_No,Operational,Sourcing,107,sum,,,Commodity_Code
+Order_No,Order_No/Code_Product,Code_Product,Operational,Sourcing,106,nunique,,,Commodity_Code
+Code_Product,Code_Product/Order_ID,Order_ID,Operational,Sourcing,105,nunique,,,Commodity_Code
+Order_ID,Order_ID/Buy_Group,Buy_Group,Operational,Sourcing,104,nunique,,,Commodity_Code
+Buy_Group,Buy_Group/Code_Vendor,Code_Vendor,Operational,Sourcing,103,nunique,,,Commodity_Code
+Code_Vendor,Code_Vendor/Code_Buyer,Code_Buyer,Operational,Sourcing,102,nunique,,,Commodity_Code
+Code_Buyer,Code_Buyer/1,1,Operational,Sourcing,101,nunique,,,Commodity_Code

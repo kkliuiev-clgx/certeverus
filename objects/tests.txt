@@ -1,0 +1,4 @@
+Given: Object B is 0
+When: Attempting to run A/B*B calculation
+Then: Return 0 w/ error message stating 'cannot divide by zero'
+

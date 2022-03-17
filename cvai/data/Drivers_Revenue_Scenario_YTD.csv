@@ -1,0 +1,21 @@
+Date,Scenario,Num Value,Numerator,Denom Value,Denominator,Driver,Parent,Driver Value
+9/1/2020,ACTUALS,2530332.33,Revenue,5233,Items,Revenue/Items,Revenue,483.5337913
+9/1/2020,PLAN,4106453,Revenue,3162.5,Items,Revenue/Items,Revenue,1298.483162
+9/1/2020,ACTUALS,5233,Items,143,SKU,Items/SKU,Revenue,36.59440559
+9/1/2020,PLAN,3162.5,Items,110,SKU,Items/SKU,Revenue,28.75
+9/1/2020,ACTUALS,143,SKU,1807,Invoice,SKU/Invoice,Revenue,0.079136691
+9/1/2020,PLAN,110,SKU,1150,Invoice,SKU/Invoice,Revenue,0.095652174
+9/1/2020,ACTUALS,1807,Invoice,135,Product Line,Invoice/Product Line,Revenue,13.38518519
+9/1/2020,PLAN,1150,Invoice,110,Product Line,Invoice/Product Line,Revenue,10.45454545
+9/1/2020,ACTUALS,135,Product Line,348,Account,Product Line/Cust Name,Revenue,0.387931034
+9/1/2020,PLAN,110,Product Line,320,Account,Product Line/Cust Name,Revenue,0.34375
+9/1/2020,ACTUALS,348,Account,158,Rep,Account/Rep,Revenue,2.202531646
+9/1/2020,PLAN,320,Account,160,Rep,Account/Rep,Revenue,2
+9/1/2020,ACTUALS,158,Rep,23,Manager,Rep/Manager,Revenue,6.869565217
+9/1/2020,PLAN,160,Rep,30,Manager,Rep/Manager,Revenue,5.333333333
+9/1/2020,ACTUALS,23,Manager,18,Team,Manager/Team,Revenue,1.277777778
+9/1/2020,PLAN,30,Manager,18,Team,Manager/Team,Revenue,1.666666667
+9/1/2020,ACTUALS,18,Team,5,Market,Team/Market,Revenue,3.6
+9/1/2020,PLAN,18,Team,5,Market,Team/Market,Revenue,3.6
+9/1/2020,ACTUALS,5,Market,1,1,Market,Revenue,5
+9/1/2020,PLAN,5,Market,1,1,Market,Revenue,5

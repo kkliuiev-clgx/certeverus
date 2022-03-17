@@ -1,0 +1,6 @@
+﻿Metric,Driver,Denominator,Level,Parent,Order,Numerator Type,Denominator Type,ChangeColumns,Attributes
+Cost,Cost/DSI,DSI,Operational,Inventory Value,106,sum,Periodic,,Commodity_Group
+DSI,DSI/Units OH,Units OH,Operational,Inventory Value,105,sum,Periodic,,Commodity_Group
+Units OH,Units OH/Product ID,Product ID,Operational,Inventory Value,104,sum,Count,,Commodity_Group
+Product ID,Product ID/Commodity,Commodity,Operational,Inventory Value,103,nunique,Count,,Commodity_Group
+Commodity,Commodity/1,1,Operational,Inventory Value,102,nunique,Count,,

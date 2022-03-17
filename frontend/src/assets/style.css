@@ -1,0 +1,95 @@
+  .dashboard.avatar {
+    background: #777;
+    border-radius: 7px;
+    margin:0 auto;
+  }
+  .dashboard.nav-btn {
+    color: #333;
+    border-radius: 7px;
+    margin: 5px;
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+  .dashboard.nav-btn:hover {
+    background: #f7f7f7;
+    transition: .3s;
+  }
+  .dashboard.nav-btn:focus {
+    background: #333;
+    transition: .3s;
+  }
+  .dashboard.nav-btn:active {
+    background: #e7e7e7;
+    transition: .3s;
+  }
+  .dashboard.nav-btn small {
+    margin-top: 4px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-size: 0.8em;
+  }
+
+  .nav-li {
+    font-size: 12px;
+    padding: 37px 20px 26px 20px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 5.5px;
+    border-bottom: 4px solid #fff;
+
+  }
+
+  .nav-li.active, .nav-li:hover {
+    border-bottom: 4px solid #B78B20;
+    transition: 0.7s;
+  }
+
+  @keyframes nav-li-active {
+    to {
+      border-width: 100%;
+    }
+  }
+  
+/* certeverus styles */
+input::placeholder,
+textarea::placeholder {
+  color: #cccccc;
+}
+
+.cvbutton {
+  color: white !important;
+  background-color: #b78b20 !important;
+  border-radius: 0px !important;
+  padding: 50px;
+  border: none;
+  margin-top: 5px;
+}
+
+.cvbutton:hover,
+.cvbutton:active {
+  background-color: #cbb560;
+}
+
+textarea,
+input.cvinput {
+  font-family: "Montserrat", Sans-serif;
+  font-weight: 400;
+  margin-top: 10px;
+  font-size: 14px;
+  padding: 12px 10px;
+}
+
+@media screen and (width: 500px) {
+  #navbar-links {
+    display: none;
+  }
+}

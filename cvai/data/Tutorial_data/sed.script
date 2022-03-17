@@ -1,0 +1,114 @@
+s/,INGRAM MICRO SERVICES,/,Private Vendor/g
+s/,CITRIX - CALC/,Citrix/g
+s/,IM EXPERT SERVICES/,House Services/g
+s/,IM ITAD SERVICES/,ITAD/g
+s/,IM LINK US/,Package Services/g
+s/,IM PARTNER TECHNICAL ENABLEMENT/,Enablement/g
+s/,IM PRO SERVICES - FORCEPOINT/,Forcepoint/g
+s/,IM PRO SERVICES - FORESITE/,Foresite/g
+s/,IM PRO SERVICES - FORTINET/,Fortinet/g
+s/,INGRAM MICRO GLOBAL TRAINING/,General Training/g
+s/,INGRAM MICRO IT STAFFING/,Staffing/g
+s/,INGRAM MICRO TRAINING - ARUBA/,Aruba/g
+s/,INGRAM MICRO TRAINING - CHECK POINT/,Checkpoint/g
+s/,INGRAM MICRO TRAINING - CISCO/,Cisco/g
+s/,INGRAM MICRO TRAINING - F5/,F5/g
+s/,INGRAM MICRO TRAINING - FORTINET/,Fortinet/g
+s/,INGRAM MICRO TRAINING - JUNIPER/,Juniper/g
+s/,INGRAM MICRO TRAINING - MICROSOFT/,Microsoft/g
+s/,INGRAM MICRO TRAINING - OTHER/,Other/g
+s/,INGRAM MICRO TRAINING - PALO ALTO/,Palo Alto/g
+s/,INGRAM MICRO TRAINING - SONICWALL/,Sonicwall/g
+s/,INGRAM MICRO TRAINING - SOPHOS/,Sophos/g
+s/,INGRAM MICRO TRAINING - VMWARE/,VMWare/g
+s/,INGRAM MICRO TRAINING HP/,HP/g
+s/,INGRAM MICRO TRAINING VEEAM/,Veeam/g
+s/,NETENRICH REMOTE SERVICE ACCESS/,Netenrich/g
+s/,VPN DYNAMICS/,VPN Dynamics/g
+s/,AB/,Emma King/g
+s/,AF/,Owen Kelly/g
+s/,ALLEN DYSON/,Kimberly Morgan/g
+s/,AM/,Mary Rutherford/g
+s/,AMY SIEGMANN/,Diane Henderson/g
+s/,ANDREA GORDON       J4/,Dominic Sharp/g
+s/,ANDREA SCHRADER/,Donna Cornish/g
+s/,ANTHONY VALVO       CA/,Michael Reid/g
+s/,ASHLEY BOROWIAK     TB/,Warren Smith/g
+s/,ASHLEY MAY/,Dominic Greene/g
+s/,ASHLEY MAY          J8/,Karen Hamilton/g
+s/,BRIAN WOLF          J4/,Neil Hamilton/g
+s/,C6/,Connor Blake/g
+s/,CHERYL GAJEWSKI     J3/,Joseph Smith/g
+s/,CHRISTIE MATTES/,Steven Burgess/g
+s/,CHRISTIE MATTES     J4/,Victoria Taylor/g
+s/,CHRISTOPHER MEINDL/,Lauren Langdon/g
+s/,D4/,Ryan Wilkins/g
+s/,DAVID VOGEL/,Christopher Brown/g
+s/,EMILY YOUNG/,Tracey Skinner/g
+s/,ERIC BAFFOUR/,Keith Miller/g
+s/,G1/,Cameron Watson/g
+s/,J2/,Anne Murray/g
+s/,J3/,Pippa Kelly/g
+s/,J4/,William Kerr/g
+s/,J5/,Blake Ferguson/g
+s/,J6/,Audrey Hart/g
+s/,J8/,Jasmine Roberts/g
+s/,K5/,Faith Underwood/g
+s/,KALIE MICHALSKI/,Wanda Kerr/g
+s/,KAREN KOWALCZYK/,Eric Smith/g
+s/,MATTHEW MUNN        TB/,Ella Welch/g
+s/,MIKE BENNETT HUGHES/,Bella Martin/g
+s/,MIKE BENNETT HUGHES AS/,Harry Fisher/g
+s/,NEW ACCOUNTS 2018 (NB18)/,James Duncan/g
+s/,NICOLE WILLIAMS/,Joan Skinner/g
+s/,PAUL GANZENMULLER/,Adrian Forsyth/g
+s/,PT/,Simon Tucker/g
+s/,RAY HALL            TN/,Joseph Jones/g
+s/,RON KIENER          02/,Charles Turner/g
+s/,S7/,Blake Clarkson/g
+s/,SHANNON (ANDERSON) WESTENFIELD/,Benjamin Miller/g
+s/,STEVE KAZMIERCZAK   TB/,Molly Hughes/g
+s/,TB/,Gordon Quinn/g
+s/,TEAM  643           J2/,Dominic Butler/g
+s/,TEAM 310            TB/,Benjamin Allan/g
+s/,TEAM 641    J2/,Molly Coleman/g
+s/,TEAM 663 (D663)/,Michelle Parsons/g
+s/,TN/,Kimberly Mitchell/g
+s/,WILLIAM EDWARDS     Y2/,Adrian Coleman/g
+s/,Y2/,Edward MacLeod/g
+s/,Genco/,Schmitt/g
+s/,Klimek/,Silva/g
+s/,Lipovsky/,Wilson/g
+s/,Bachulak/,Brown/g
+s/,Bugenhagen/,Davis/g
+s/,Gorman/,Hernandez/g
+s/,Barish/,Wang/g
+s/,Beach/,Smith/g
+s/,Gould/,Garcia/g
+s/,McKinley/,Ianova/g
+s/,Trapp/,Murphy/g
+s/,IME/,SOW/g
+s/,IML/,Referral/g
+s/,IMT/,Training/g
+s/,ITAD/,Recycle/g
+s/,IMDS/,Deployment/g
+s/,ACD/,Alpha/g
+s/,CBU/,Bravo/g
+s/,Cisco/,Charlie/g
+s/,Cisco/,Delta/g
+s/,DCM/,Echo/g
+s/,DCPOS/,Foxtrot/g
+s/,Global Accounts/,Golf/g
+s/,Major Accounts/,Hotel/g
+s/,Mid Tier VAR East/,India/g
+s/,Mid Tier VAR West/,Juliet/g
+s/,NSP/,Kilo/g
+s/,Networking Security/,Lima/g
+s/,PS/,Mike/g
+s/,PTS/,November/g
+s/,Physical Security/,Oscar/g
+s/,ProAV/,Papa/g
+s/,Promark/,Quebec/g
+s/,SMB/,Romeo/g
+s/,UCC/,Sierra/g
+

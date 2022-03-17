@@ -1,0 +1,137 @@
+CPT Code,Category
+ELG,Ancillary
+J7296,Ancillary
+J7298,Ancillary
+J7300,Ancillary
+catasallowance,catasallowance
+0101FACFEE,Facility Fee
+99217,Hospital Visit
+99218,Hospital Visit
+99219,Hospital Visit
+99222,Hospital Visit
+99223,Hospital Visit
+99232,Hospital Visit
+99233,Hospital Visit
+99234,Hospital Visit
+99235,Hospital Visit
+99238,Hospital Visit
+99283,Hospital Visit
+99284,Hospital Visit
+36410,Lab / Injection
+80104,Lab / Injection
+87804,Lab / Injection
+36415,Lab / Injection
+81000,Lab / Injection
+81002,Lab / Injection
+81003,Lab / Injection
+81025,Lab / Injection
+86063,Lab / Injection
+87880,Lab / Injection
+90471,Lab / Injection
+90682,Lab / Injection
+90715,Lab / Injection
+96372,Lab / Injection
+J1050,Lab / Injection
+j1100,Lab / Injection
+J1885,Lab / Injection
+J2790,Lab / Injection
+J9250,Lab / Injection
+Q0111,Lab / Injection
+36247,Lab / Injection
+79445,Lab / Injection
+101,No Pay
+59510,OB GYN - CD
+59514,OB GYN - CD
+59515,OB GYN - CD
+59400,OB GYN - VD
+59409,OB GYN - VD
+59410,OB GYN - VD
+99356,Office Visit
+59425,Office Visit
+59426,Office Visit
+59430,Office Visit
+99202,Office Visit
+99203,Office Visit
+99204,Office Visit
+99212,Office Visit
+99213,Office Visit
+99214,Office Visit
+99215,Office Visit
+0503F,Office Visit
+44005,"Procedure, Major"
+44021,"Procedure, Major"
+49084,"Procedure, Major"
+49322,"Procedure, Major"
+52000,"Procedure, Major"
+58545,"Procedure, Major"
+58546,"Procedure, Major"
+58673,"Procedure, Major"
+58740,"Procedure, Major"
+59100,"Procedure, Major"
+58140,"Procedure, Major"
+58150,"Procedure, Major"
+58340,"Procedure, Major"
+58350,"Procedure, Major"
+58544,"Procedure, Major"
+58554,"Procedure, Major"
+58558,"Procedure, Major"
+58559,"Procedure, Major"
+58561,"Procedure, Major"
+58562,"Procedure, Major"
+58570,"Procedure, Major"
+58660,"Procedure, Major"
+58661,"Procedure, Major"
+58662,"Procedure, Major"
+58700,"Procedure, Major"
+58925,"Procedure, Major"
+59151,"Procedure, Major"
+54161,"Procedure, Minor"
+56620,"Procedure, Minor"
+56740,"Procedure, Minor"
+11982,"Procedure, Minor"
+13132,"Procedure, Minor"
+49000,"Procedure, Minor"
+49320,"Procedure, Minor"
+50715,"Procedure, Minor"
+52265,"Procedure, Minor"
+54150,"Procedure, Minor"
+54160,"Procedure, Minor"
+56420,"Procedure, Minor"
+56501,"Procedure, Minor"
+56515,"Procedure, Minor"
+57452,"Procedure, Minor"
+57454,"Procedure, Minor"
+57500,"Procedure, Minor"
+57510,"Procedure, Minor"
+57511,"Procedure, Minor"
+57520,"Procedure, Minor"
+57522,"Procedure, Minor"
+58100,"Procedure, Minor"
+58120,"Procedure, Minor"
+58300,"Procedure, Minor"
+58301,"Procedure, Minor"
+59812,"Procedure, Minor"
+59821,"Procedure, Minor"
+37243,UFE
+59025,Ultrasound
+76700,Ultrasound
+76376,Ultrasound
+76377,Ultrasound
+76770,Ultrasound
+76801,Ultrasound
+76816,Ultrasound
+76817,Ultrasound
+76818,Ultrasound
+76819,Ultrasound
+76820,Ultrasound
+76830,Ultrasound
+76831,Ultrasound
+76856,Ultrasound
+93970,Ultrasound
+93971,Ultrasound
+93975,Ultrasound
+93978,Ultrasound
+75736,Ultrasound
+75898,Ultrasound
+99243,Viva Office Visit
+99356,

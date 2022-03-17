@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://secureservercdn.net/104.238.69.231/q52.4f0.myftpupload.com/wp-content/uploads/2020/07/cropped-Favicon.png?time=1594928690" size="32x32"/>
+    <title>{% block title %}{% endblock title %}</title>
+
+    {% block header_js %}{% endblock header_js%}
+
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but frontend doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+
+    {% block vue_injection_code %}
+    {% endblock vue_injection_code %}
+  </body>
+</html>

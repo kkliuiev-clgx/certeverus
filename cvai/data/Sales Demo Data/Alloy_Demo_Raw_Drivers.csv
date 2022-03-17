@@ -1,0 +1,14 @@
+Metric,Driver,Denominator,Level,Parent,Order,Numerator Type,Denominator Type,ChangeColumns,Attributes
+Customers,Customers,1,Operational,Portfolio,101,last,,,Branch
+Users_Added,Users_Added/Customers,Customers,Operational,Portfolio,102,sum,,,Branch
+Carefull_Budget,Carefull_Budget/Users_Added,Users_Added,Operational,Portfolio,103,sum,,,Branch
+Beginning_Value,Beginning_Value/Carefull_Budget,Carefull_Budget,Operational,Portfolio,104,sum,,,Branch
+Transitioned_Accounts,Transitioned_Accounts/Beginning_Value,Beginning_Value,Operational,Portfolio,105,sum,,,Branch
+Retained_Value,Retained_Value/Transitioned_Accounts,Transitioned_Accounts,Operational,Portfolio,106,sum,,,Branch
+Income_Producing_Assets,Income_Producing_Assets/Retained_Value,Retained_Value,Operational,Portfolio,107,sum,,,Branch
+Income,Income/Income_Producing_Assets,Income_Producing_Assets,Operational,Portfolio,108,sum,,,Branch
+Beginning_Value,Beginning_Value,1,Functional,Account,201,sum,,,Branch
+Beneficiaries,Beneficiaries/Beginning_Value,Beginning_Value,Functional,Account,202,sum,,,Branch
+Remaining_Beneficiaries,Remaining_Beneficiaries/Beneficiaries,Beneficiaries,Functional,Account,203,sum,,,Branch
+Days_Retained,Days_Retained/Remaining_Beneficiaries,Remaining_Beneficiaries,Functional,Account,204,sum,,,Branch
+Retained_Value,Retained_Value/Days_Retained,Days_Retained,Functional,Account,205,sum,,,Branch

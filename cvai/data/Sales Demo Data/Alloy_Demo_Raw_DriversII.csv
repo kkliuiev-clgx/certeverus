@@ -1,0 +1,22 @@
+Metric,Driver,Denominator,Level,Parent,Order,Numerator Type,Denominator Type,ChangeColumns,Attributes
+Customers,Customers,1,Operational,Portfolio,101,last,,,Segments
+Users_Added,Users_Added/Customers,Customers,Operational,Portfolio,102,sum,,,Segments
+Carefull_Budget,Carefull_Budget/Users_Added,Users_Added,Operational,Portfolio,103,sum,,,Segments
+Deceased_Holders,Deceased Holders/Carefull_Budget,Carefull_Budget,Operational,Portfolio,104,sum,,,Segments
+Beneficiaries,Beneficiaries/Deceased Holders,Deceased_Holders,Operational,Portfolio,105,sum,,,Segments
+Beginning_Value,Beginning_Value/Beneficiaries,Beneficiaries,Operational,Portfolio,106,sum,,,Segments
+Retained_Value,Retained_Value/Beginning_Value,Beginning_Value,Operational,Portfolio,107,sum,,,Segments
+Income_Producing_Assets,Income_Producing_Assets/Retained_Value,Retained_Value,Operational,Portfolio,108,sum,,,Segments
+Income,Income/Income_Producing_Assets,Income_Producing_Assets,Operational,Portfolio,109,sum,,,Segments
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,Customers,,,,,,,,
+,Users_Added/Customers,Adoption,,,,,,,
+,Carefull_Budget/Users_Added,Budget,,,,,,,
+,Deceased Holders/Carefull_Budget,Mortality,,,,,,,
+,Beneficiaries/Deceased Holders,,,,,,,,
+,Beginning_Value/Beneficiaries,Potential Value,,,,,,,
+,Retained_Value/Beginning_Value,Retention,,,,,,,
+,Income_Producing_Assets/Retained_Value,LTV,,,,,,,
+,Income/Income_Producing_Assets,Margin,,,,,,,

@@ -1,0 +1,51 @@
+Date,Scenario,CAE,value,variable,Parent
+2020-09-01,ACTUALS,Garcia,1960,Items,Revenue
+2020-09-01,ACTUALS,Ianova,249,Items,Revenue
+2020-09-01,ACTUALS,Murphy,501,Items,Revenue
+2020-09-01,ACTUALS,Smith,1401,Items,Revenue
+2020-09-01,ACTUALS,Wang,1122,Items,Revenue
+2020-09-01,ACTUALS,Garcia,45,SKU,Revenue
+2020-09-01,ACTUALS,Ianova,37,SKU,Revenue
+2020-09-01,ACTUALS,Murphy,59,SKU,Revenue
+2020-09-01,ACTUALS,Smith,40,SKU,Revenue
+2020-09-01,ACTUALS,Wang,53,SKU,Revenue
+2020-09-01,ACTUALS,Garcia,693,Invoice,Revenue
+2020-09-01,ACTUALS,Ianova,200,Invoice,Revenue
+2020-09-01,ACTUALS,Murphy,313,Invoice,Revenue
+2020-09-01,ACTUALS,Smith,381,Invoice,Revenue
+2020-09-01,ACTUALS,Wang,220,Invoice,Revenue
+2020-09-01,ACTUALS,Garcia,44,Product Line,Revenue
+2020-09-01,ACTUALS,Ianova,35,Product Line,Revenue
+2020-09-01,ACTUALS,Murphy,57,Product Line,Revenue
+2020-09-01,ACTUALS,Smith,40,Product Line,Revenue
+2020-09-01,ACTUALS,Wang,51,Product Line,Revenue
+2020-09-01,ACTUALS,Garcia,71,Account,Revenue
+2020-09-01,ACTUALS,Ianova,54,Account,Revenue
+2020-09-01,ACTUALS,Murphy,85,Account,Revenue
+2020-09-01,ACTUALS,Smith,63,Account,Revenue
+2020-09-01,ACTUALS,Wang,76,Account,Revenue
+2020-09-01,ACTUALS,Garcia,47,Rep,Revenue
+2020-09-01,ACTUALS,Ianova,42,Rep,Revenue
+2020-09-01,ACTUALS,Murphy,49,Rep,Revenue
+2020-09-01,ACTUALS,Smith,44,Rep,Revenue
+2020-09-01,ACTUALS,Wang,40,Rep,Revenue
+2020-09-01,ACTUALS,Garcia,16,Manager,Revenue
+2020-09-01,ACTUALS,Ianova,13,Manager,Revenue
+2020-09-01,ACTUALS,Murphy,17,Manager,Revenue
+2020-09-01,ACTUALS,Smith,14,Manager,Revenue
+2020-09-01,ACTUALS,Wang,16,Manager,Revenue
+2020-09-01,ACTUALS,Garcia,14,Team,Revenue
+2020-09-01,ACTUALS,Ianova,11,Team,Revenue
+2020-09-01,ACTUALS,Murphy,14,Team,Revenue
+2020-09-01,ACTUALS,Smith,12,Team,Revenue
+2020-09-01,ACTUALS,Wang,14,Team,Revenue
+2020-09-01,ACTUALS,Garcia,1,Market,Revenue
+2020-09-01,ACTUALS,Ianova,3,Market,Revenue
+2020-09-01,ACTUALS,Murphy,2,Market,Revenue
+2020-09-01,ACTUALS,Smith,2,Market,Revenue
+2020-09-01,ACTUALS,Wang,1,Market,Revenue
+2020-09-01,ACTUALS,Garcia,1,1,Revenue
+2020-09-01,ACTUALS,Ianova,1,1,Revenue
+2020-09-01,ACTUALS,Murphy,1,1,Revenue
+2020-09-01,ACTUALS,Smith,1,1,Revenue
+2020-09-01,ACTUALS,Wang,1,1,Revenue

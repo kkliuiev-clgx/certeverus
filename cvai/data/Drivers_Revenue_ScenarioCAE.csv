@@ -1,0 +1,101 @@
+Date,Scenario,CAE,Num Value,Numerator,Denom Value,Denominator,Driver,Parent,Driver Value
+8/1/2020,ACTUALS,Garcia,299871.51,Revenue,764,Items,Revenue/Items,Revenue,392.5019764
+9/1/2020,ACTUALS,Garcia,312450.54,Revenue,1196,Items,Revenue/Items,Revenue,261.2462709
+8/1/2020,ACTUALS,Ianova,123051.21,Revenue,120,Items,Revenue/Items,Revenue,1025.42675
+9/1/2020,ACTUALS,Ianova,108377.82,Revenue,129,Items,Revenue/Items,Revenue,840.1381395
+8/1/2020,ACTUALS,Murphy,516302.02,Revenue,330,Items,Revenue/Items,Revenue,1564.551576
+9/1/2020,ACTUALS,Murphy,443461.82,Revenue,171,Items,Revenue/Items,Revenue,2593.343977
+8/1/2020,ACTUALS,Smith,250402.8,Revenue,838,Items,Revenue/Items,Revenue,298.8100239
+9/1/2020,ACTUALS,Smith,137008.88,Revenue,563,Items,Revenue/Items,Revenue,243.3550266
+8/1/2020,ACTUALS,Wang,203442.53,Revenue,759,Items,Revenue/Items,Revenue,268.040224
+9/1/2020,ACTUALS,Wang,135963.2,Revenue,363,Items,Revenue/Items,Revenue,374.55427
+8/1/2020,ACTUALS,Garcia,764,Items,24,SKU,Items/SKU,Revenue,31.83333333
+9/1/2020,ACTUALS,Garcia,1196,Items,36,SKU,Items/SKU,Revenue,33.22222222
+8/1/2020,ACTUALS,Ianova,120,Items,27,SKU,Items/SKU,Revenue,4.444444444
+9/1/2020,ACTUALS,Ianova,129,Items,21,SKU,Items/SKU,Revenue,6.142857143
+8/1/2020,ACTUALS,Murphy,330,Items,41,SKU,Items/SKU,Revenue,8.048780488
+9/1/2020,ACTUALS,Murphy,171,Items,31,SKU,Items/SKU,Revenue,5.516129032
+8/1/2020,ACTUALS,Smith,838,Items,37,SKU,Items/SKU,Revenue,22.64864865
+9/1/2020,ACTUALS,Smith,563,Items,28,SKU,Items/SKU,Revenue,20.10714286
+8/1/2020,ACTUALS,Wang,759,Items,40,SKU,Items/SKU,Revenue,18.975
+9/1/2020,ACTUALS,Wang,363,Items,29,SKU,Items/SKU,Revenue,12.51724138
+8/1/2020,ACTUALS,Garcia,24,SKU,346,Invoice,SKU/Invoice,Revenue,0.069364162
+9/1/2020,ACTUALS,Garcia,36,SKU,347,Invoice,SKU/Invoice,Revenue,0.103746398
+8/1/2020,ACTUALS,Ianova,27,SKU,102,Invoice,SKU/Invoice,Revenue,0.264705882
+9/1/2020,ACTUALS,Ianova,21,SKU,98,Invoice,SKU/Invoice,Revenue,0.214285714
+8/1/2020,ACTUALS,Murphy,41,SKU,157,Invoice,SKU/Invoice,Revenue,0.261146497
+9/1/2020,ACTUALS,Murphy,31,SKU,156,Invoice,SKU/Invoice,Revenue,0.198717949
+8/1/2020,ACTUALS,Smith,37,SKU,246,Invoice,SKU/Invoice,Revenue,0.150406504
+9/1/2020,ACTUALS,Smith,28,SKU,135,Invoice,SKU/Invoice,Revenue,0.207407407
+8/1/2020,ACTUALS,Wang,40,SKU,97,Invoice,SKU/Invoice,Revenue,0.412371134
+9/1/2020,ACTUALS,Wang,29,SKU,123,Invoice,SKU/Invoice,Revenue,0.235772358
+8/1/2020,ACTUALS,Garcia,346,Invoice,24,Product Line,Invoice/Product Line,Revenue,14.41666667
+9/1/2020,ACTUALS,Garcia,347,Invoice,35,Product Line,Invoice/Product Line,Revenue,9.914285714
+8/1/2020,ACTUALS,Ianova,102,Invoice,26,Product Line,Invoice/Product Line,Revenue,3.923076923
+9/1/2020,ACTUALS,Ianova,98,Invoice,20,Product Line,Invoice/Product Line,Revenue,4.9
+8/1/2020,ACTUALS,Murphy,157,Invoice,41,Product Line,Invoice/Product Line,Revenue,3.829268293
+9/1/2020,ACTUALS,Murphy,156,Invoice,29,Product Line,Invoice/Product Line,Revenue,5.379310345
+8/1/2020,ACTUALS,Smith,246,Invoice,37,Product Line,Invoice/Product Line,Revenue,6.648648649
+9/1/2020,ACTUALS,Smith,135,Invoice,28,Product Line,Invoice/Product Line,Revenue,4.821428571
+8/1/2020,ACTUALS,Wang,97,Invoice,39,Product Line,Invoice/Product Line,Revenue,2.487179487
+9/1/2020,ACTUALS,Wang,123,Invoice,28,Product Line,Invoice/Product Line,Revenue,4.392857143
+8/1/2020,ACTUALS,Garcia,24,Product Line,49,Account,Product Line/Cust Name,Revenue,0.489795918
+9/1/2020,ACTUALS,Garcia,35,Product Line,60,Account,Product Line/Cust Name,Revenue,0.583333333
+8/1/2020,ACTUALS,Ianova,26,Product Line,44,Account,Product Line/Cust Name,Revenue,0.590909091
+9/1/2020,ACTUALS,Ianova,20,Product Line,37,Account,Product Line/Cust Name,Revenue,0.540540541
+8/1/2020,ACTUALS,Murphy,41,Product Line,68,Account,Product Line/Cust Name,Revenue,0.602941176
+9/1/2020,ACTUALS,Murphy,29,Product Line,65,Account,Product Line/Cust Name,Revenue,0.446153846
+8/1/2020,ACTUALS,Smith,37,Product Line,52,Account,Product Line/Cust Name,Revenue,0.711538462
+9/1/2020,ACTUALS,Smith,28,Product Line,50,Account,Product Line/Cust Name,Revenue,0.56
+8/1/2020,ACTUALS,Wang,39,Product Line,61,Account,Product Line/Cust Name,Revenue,0.639344262
+9/1/2020,ACTUALS,Wang,28,Product Line,57,Account,Product Line/Cust Name,Revenue,0.49122807
+8/1/2020,ACTUALS,Garcia,49,Account,35,Rep,Account/Rep,Revenue,1.4
+9/1/2020,ACTUALS,Garcia,60,Account,38,Rep,Account/Rep,Revenue,1.578947368
+8/1/2020,ACTUALS,Ianova,44,Account,37,Rep,Account/Rep,Revenue,1.189189189
+9/1/2020,ACTUALS,Ianova,37,Account,30,Rep,Account/Rep,Revenue,1.233333333
+8/1/2020,ACTUALS,Murphy,68,Account,42,Rep,Account/Rep,Revenue,1.619047619
+9/1/2020,ACTUALS,Murphy,65,Account,40,Rep,Account/Rep,Revenue,1.625
+8/1/2020,ACTUALS,Smith,52,Account,38,Rep,Account/Rep,Revenue,1.368421053
+9/1/2020,ACTUALS,Smith,50,Account,33,Rep,Account/Rep,Revenue,1.515151515
+8/1/2020,ACTUALS,Wang,61,Account,36,Rep,Account/Rep,Revenue,1.694444444
+9/1/2020,ACTUALS,Wang,57,Account,33,Rep,Account/Rep,Revenue,1.727272727
+8/1/2020,ACTUALS,Garcia,35,Rep,11,Manager,Rep/Manager,Revenue,3.181818182
+9/1/2020,ACTUALS,Garcia,38,Rep,15,Manager,Rep/Manager,Revenue,2.533333333
+8/1/2020,ACTUALS,Ianova,37,Rep,13,Manager,Rep/Manager,Revenue,2.846153846
+9/1/2020,ACTUALS,Ianova,30,Rep,11,Manager,Rep/Manager,Revenue,2.727272727
+8/1/2020,ACTUALS,Murphy,42,Rep,17,Manager,Rep/Manager,Revenue,2.470588235
+9/1/2020,ACTUALS,Murphy,40,Rep,13,Manager,Rep/Manager,Revenue,3.076923077
+8/1/2020,ACTUALS,Smith,38,Rep,13,Manager,Rep/Manager,Revenue,2.923076923
+9/1/2020,ACTUALS,Smith,33,Rep,12,Manager,Rep/Manager,Revenue,2.75
+8/1/2020,ACTUALS,Wang,36,Rep,16,Manager,Rep/Manager,Revenue,2.25
+9/1/2020,ACTUALS,Wang,33,Rep,14,Manager,Rep/Manager,Revenue,2.357142857
+8/1/2020,ACTUALS,Garcia,11,Manager,10,Team,Manager/Team,Revenue,1.1
+9/1/2020,ACTUALS,Garcia,15,Manager,13,Team,Manager/Team,Revenue,1.153846154
+8/1/2020,ACTUALS,Ianova,13,Manager,11,Team,Manager/Team,Revenue,1.181818182
+9/1/2020,ACTUALS,Ianova,11,Manager,9,Team,Manager/Team,Revenue,1.222222222
+8/1/2020,ACTUALS,Murphy,17,Manager,14,Team,Manager/Team,Revenue,1.214285714
+9/1/2020,ACTUALS,Murphy,13,Manager,11,Team,Manager/Team,Revenue,1.181818182
+8/1/2020,ACTUALS,Smith,13,Manager,11,Team,Manager/Team,Revenue,1.181818182
+9/1/2020,ACTUALS,Smith,12,Manager,11,Team,Manager/Team,Revenue,1.090909091
+8/1/2020,ACTUALS,Wang,16,Manager,14,Team,Manager/Team,Revenue,1.142857143
+9/1/2020,ACTUALS,Wang,14,Manager,12,Team,Manager/Team,Revenue,1.166666667
+8/1/2020,ACTUALS,Garcia,10,Team,1,Market,Team/Market,Revenue,10
+9/1/2020,ACTUALS,Garcia,13,Team,1,Market,Team/Market,Revenue,13
+8/1/2020,ACTUALS,Ianova,11,Team,3,Market,Team/Market,Revenue,3.666666667
+9/1/2020,ACTUALS,Ianova,9,Team,3,Market,Team/Market,Revenue,3
+8/1/2020,ACTUALS,Murphy,14,Team,2,Market,Team/Market,Revenue,7
+9/1/2020,ACTUALS,Murphy,11,Team,2,Market,Team/Market,Revenue,5.5
+8/1/2020,ACTUALS,Smith,11,Team,2,Market,Team/Market,Revenue,5.5
+9/1/2020,ACTUALS,Smith,11,Team,2,Market,Team/Market,Revenue,5.5
+8/1/2020,ACTUALS,Wang,14,Team,1,Market,Team/Market,Revenue,14
+9/1/2020,ACTUALS,Wang,12,Team,1,Market,Team/Market,Revenue,12
+8/1/2020,ACTUALS,Garcia,1,Market,1,1,Market,Revenue,1
+9/1/2020,ACTUALS,Garcia,1,Market,1,1,Market,Revenue,1
+8/1/2020,ACTUALS,Ianova,3,Market,1,1,Market,Revenue,3
+9/1/2020,ACTUALS,Ianova,3,Market,1,1,Market,Revenue,3
+8/1/2020,ACTUALS,Murphy,2,Market,1,1,Market,Revenue,2
+9/1/2020,ACTUALS,Murphy,2,Market,1,1,Market,Revenue,2
+8/1/2020,ACTUALS,Smith,2,Market,1,1,Market,Revenue,2
+9/1/2020,ACTUALS,Smith,2,Market,1,1,Market,Revenue,2
+8/1/2020,ACTUALS,Wang,1,Market,1,1,Market,Revenue,1
+9/1/2020,ACTUALS,Wang,1,Market,1,1,Market,Revenue,1

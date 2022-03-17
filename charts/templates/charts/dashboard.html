@@ -1,0 +1,18 @@
+{% extends "core/base.html" %}
+{% load render_bundle from webpack_loader %}
+
+{% block title %}{{title}} - CerteVerus{% endblock title %}
+
+{% block header_js %}
+
+<!-- Plotly lib -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/1.57.1/plotly.min.js"></script>
+
+{% endblock header_js %}
+
+{% block vue_injection_code %}
+    <div id="data" data-django="{{data}}"></div>
+    <Dashboard id="dashboard"></Dashboard>
+  
+    {% render_bundle 'dashboard' %}
+{% endblock vue_injection_code %}

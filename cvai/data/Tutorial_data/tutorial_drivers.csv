@@ -1,0 +1,11 @@
+Metric,Driver,Denominator,Level,Parent,Order,Numerator Type,Denominator Type,ChangeColumns,Attributes,Label,Format,Metric Format
+Revenue,Revenue/Items,Items,Operational,Revenue,111,sum,Periodic,,"Account,Category,Vendor Name,Product Line,Rep,State Code,New Market,Training CAS,Pro CAS,CAE,Category,Team",Pricing,$,$
+Items,Items/SKU,SKU,Operational,Revenue,110,sum,Count,,"Account,Category,Vendor Name,Product Line,Rep,State Code,New Market,Training CAS,Pro CAS,CAE,Category,Team",Items per SKU,%,%
+SKU,SKU/Invoice,Invoice,Operational,Revenue,109,nunique,Count,,"Account,Category,Vendor Name,Product Line,Rep,State Code,New Market,Training CAS,Pro CAS,CAE,Category,Team",SKU per Invoice,.2f,.2f
+Invoice,Invoice/Product Line,Product Line,Operational,Revenue,107,nunique,Count,Invoice,"Account,Category,Vendor Name,Product Line,Rep,State Code,New Market,Training CAS,Pro CAS,CAE,Category,Team",Invoice per Product,,.2f
+Product Line,Product Line/Cust Name,Account,Operational,Revenue,108,nunique,Count,,"Account,Category,Vendor Name,Product Line,Rep,State Code,New Market,Training CAS,Pro CAS,CAE,Category,Team",Product per Account,,
+Account,Account/Rep,Rep,Operational,Revenue,106,nunique,Perpetual,,"Account,Category,Vendor Name,Product Line,Rep,State Code,New Market,Training CAS,Pro CAS,CAE,Category,Team",Account per Rep,,
+Rep,Rep/Manager,Manager,Operational,Revenue,105,nunique,Perpetual,,"CAE,Pro CAS,Training CAS,Rep",Rep per Manager,,
+Manager,Manager/Team,Team,Operational,Revenue,104,nunique,Perpetual,,,Manager per Team,,
+Team,Team/Market,Market,Operational,Revenue,102,nunique,Periodic,,,Team per Market,.1f,.1f
+Market,Market,1,Operational,Revenue,103,nunique,Perpetual,,,Market,%,%

@@ -1,0 +1,10 @@
+,Metric,Driver,Denominator,Level,Parent,Order,Numerator Type,Denominator Type,Data Source
+0,Cash Balance,Cash Balance,1,Strategic,Free Cash Flow,10,Perpetual,Count,NEED - manual spreadsheet
+1,Exam Room Available Hours,Exam Room Available Hours/Cash Balance,Cash Balance,Strategic,Free Cash Flow,20,Periodic,Perpetual,Manual spreadsheet calculation based on number of exam rooms*hours the office is open matched against a calendar of open days (weekdays v. Saturdays in each month).
+7,Patient Available Hours,Patient Available Hours/Exam Room Available Hour,Exam Room Available Hours,Strategic,Free Cash Flow,30,Periodic,Periodic,PAH google sheet (manual based on monthly manual OBGYN provider schedule and deemed hours for IR providers)
+14,Visits,Visits/Patient Available Hour,Patient Available Hours,Strategic,Free Cash Flow,40,Periodic,Periodic,Net Revenue/visit google sheet
+24,Net Revenue,Net Revenue/Visit,Visits,Strategic,Free Cash Flow,50,Periodic,Periodic,Net Revenue/visit google sheet
+29,EBITDA,EBITDA/Net Revenue,Net Revenue,Strategic,Free Cash Flow,60,Periodic,Periodic,Income Statement from QBO => QB drivers google sheet
+36,Net Income,Net Income/EBITDA,EBITDA,Strategic,Free Cash Flow,70,Periodic,Periodic,Income Statement from QBO => QB drivers google sheet
+41,CFO,Cash Flow From Operations/Net Income,Net Income,Strategic,Free Cash Flow,80,Periodic,Periodic,Statement of cash flows from QBO => QB drivers google sheet
+49,Free Cash Flow,Free Cash Flow/Cash Flow From Operations,Cash Flow From Operations,Strategic,Free Cash Flow,90,Periodic,Periodic,Statement of cash flows from QBO => QB drivers google sheet

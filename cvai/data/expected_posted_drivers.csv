@@ -1,0 +1,5 @@
+Date,Scenario,Num Value,Numerator,Denom Value,Denominator,Driver,Parent,Driver Value
+2020-08-01,ACTUALS,1393070.0699999991,Revenue,2811.0,Items,Revenue/Items,Revenue,495.57811099252905
+2020-09-01,ACTUALS,1137262.2600000005,Revenue,2422.0,Items,Revenue/Items,Revenue,469.555020644096
+2020-08-01,PLAN,1653423.0,Revenue,3025.0,Items,Revenue/Items,Revenue,546.5861157024793
+2020-09-01,PLAN,2453030.0,Revenue,3300.0,Items,Revenue/Items,Revenue,743.3424242424243

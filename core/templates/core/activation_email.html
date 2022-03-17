@@ -1,0 +1,10 @@
+{% autoescape off %}
+Hello {{ user.username }},
+
+Please click on the link below to confirm your registration:
+
+http://{{ domain }}{% url 'confirm_email' uidb64=uid token=token %}
+
+Thank you,
+The CerteVerus Team
+{% endautoescape %}

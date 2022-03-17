@@ -1,0 +1,21 @@
+Date,Scenario,Num Value,Numerator,Denom Value,Denominator,Driver,Parent,Driver Value
+2020-08-01,ACTUALS,1393070.0699999991,Revenue,2811.0,Items,Revenue/Items,Revenue,495.57811099252905
+2020-08-01,ACTUALS,2811.0,Items,102.0,SKU,Items/SKU,Revenue,27.558823529411764
+2020-08-01,ACTUALS,102.0,SKU,948.0,Invoice,SKU/Invoice,Revenue,0.1075949367088607
+2020-08-01,ACTUALS,948.0,Invoice,99.0,Product Line,Invoice/Product Line,Revenue,9.575757575757576
+2020-08-01,ACTUALS,99.0,Product Line,274.0,Account,Product Line/Cust Name,Revenue,0.3613138686131387
+2020-08-01,ACTUALS,274.0,Account,143.0,Rep,Account/Rep,Revenue,1.916083916083916
+2020-08-01,ACTUALS,143.0,Rep,23.0,Manager,Rep/Manager,Revenue,6.217391304347826
+2020-08-01,ACTUALS,23.0,Manager,18.0,Team,Manager/Team,Revenue,1.2777777777777777
+2020-08-01,ACTUALS,18.0,Team,5.0,Market,Team/Market,Revenue,3.6
+2020-08-01,ACTUALS,5.0,Market,1.0,1,Market,Revenue,5.0
+2020-09-01,ACTUALS,1137262.2600000005,Revenue,2422.0,Items,Revenue/Items,Revenue,469.555020644096
+2020-09-01,ACTUALS,2422.0,Items,95.0,SKU,Items/SKU,Revenue,25.49473684210526
+2020-09-01,ACTUALS,95.0,SKU,859.0,Invoice,SKU/Invoice,Revenue,0.1105937136204889
+2020-09-01,ACTUALS,859.0,Invoice,91.0,Product Line,Invoice/Product Line,Revenue,9.43956043956044
+2020-09-01,ACTUALS,91.0,Product Line,268.0,Account,Product Line/Cust Name,Revenue,0.3395522388059701
+2020-09-01,ACTUALS,268.0,Account,136.0,Rep,Account/Rep,Revenue,1.9705882352941175
+2020-09-01,ACTUALS,136.0,Rep,23.0,Manager,Rep/Manager,Revenue,5.913043478260869
+2020-09-01,ACTUALS,23.0,Manager,18.0,Team,Manager/Team,Revenue,1.2777777777777777
+2020-09-01,ACTUALS,18.0,Team,5.0,Market,Team/Market,Revenue,3.6
+2020-09-01,ACTUALS,5.0,Market,1.0,1,Market,Revenue,5.0

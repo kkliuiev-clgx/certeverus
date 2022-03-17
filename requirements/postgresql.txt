@@ -1,0 +1,2 @@
+# Postgresql 10+ needs 2.8.0+
+psycopg2==2.8.2

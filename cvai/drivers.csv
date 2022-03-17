@@ -1,0 +1,50 @@
+,Metric,Driver,Denominator,Level,Parent,Order,Numerator Type,Denominator Type,Cleared,Data Source
+0,Cash Balance,Cash Balance,1,Strategic,Free Cash Flow,10,Perpetual,Count,,NEED - manual spreadsheet
+1,Exam Room Available Hours,Exam Room Available Hours/Cash Balance,Cash Balance,Strategic,Free Cash Flow,20,Periodic,Perpetual,,Manual spreadsheet calculation based on number of exam rooms*hours the office is open matched against a calendar of open days (weekdays v. Saturdays in each month).
+2,Cash Balance,Cash Balance - Exam Room Driver,1,Operational,Exam Room Available Hours/Cash Balance,21,Perpetual,Count,y,NEED - manual spreadsheet
+3,Locations,Locations/Cash Balance,Cash Balance,Operational,Exam Room Available Hours/Cash Balance,22,Count,Perpetual,y,NEED - Manual spreadsheet calculation based on number of exam rooms*hours the office is open matched against a calendar of open days (weekdays v. Saturdays in each month).
+4,Exam Rooms,Exam Rooms/Location,Locations,Operational,Exam Room Available Hours/Cash Balance,23,Count,Count,y,Manual spreadsheet calculation based on number of exam rooms*hours the office is open matched against a calendar of open days (weekdays v. Saturdays in each month).
+5,Exam Room Hours,Exam Room Hours/Exam Room,Exam Rooms,Operational,Exam Room Available Hours/Cash Balance,24,Periodic,Count,y,Manual spreadsheet calculation based on number of exam rooms*hours the office is open matched against a calendar of open days (weekdays v. Saturdays in each month).
+6,Exam Room Available Hours,Exam Room Available Hours/Exam Room Hour,Exam Room Hours,Operational,Exam Room Available Hours/Cash Balance,25,Periodic,Periodic,y,Manual spreadsheet calculation based on number of exam rooms*hours the office is open matched against a calendar of open days (weekdays v. Saturdays in each month).
+7,Patient Available Hours,Patient Available Hours/Exam Room Available Hour,Exam Room Available Hours,Strategic,Free Cash Flow,30,Periodic,Periodic,,PAH google sheet (manual based on monthly manual OBGYN provider schedule and deemed hours for IR providers)
+8,Exam Room Available Hours,Exam Room Available Hours,1,Operational,Patient Available Hours/Exam Room Available Hour,31,Periodic,Periodic,y,Manual spreadsheet calculation based on number of exam rooms*hours the office is open matched against a calendar of open days (weekdays v. Saturdays in each month).
+9,Providers,Providers,Exam Room Available Hours,Operational,Patient Available Hours/Exam Room Available Hour,32,Perpetual,Count,y,PAH google sheet (manual based on monthly manual OBGYN provider schedule and deemed hours for IR providers)
+10,Scheduled Hours,Scheduled Hours/Provider,Providers,Operational,Patient Available Hours/Exam Room Available Hour,33,Periodic,Perpetual,y,PAH google sheet (manual based on monthly manual OBGYN provider schedule and deemed hours for IR providers)
+11,Actual Hours Worked,Actual Hours Worked/Scheduled Hours,Scheduled Hours,Operational,Patient Available Hours/Exam Room Available Hour,34,Periodic,Periodic,y,PAH google sheet (manual based on monthly manual OBGYN provider schedule and deemed hours for IR providers)
+12,Provider Available Hours,Provider Available Hours/Actual Hours Worked,Actual Hours Worked,Operational,Patient Available Hours/Exam Room Available Hour,35,Periodic,Periodic,y,PAH google sheet (manual based on monthly manual OBGYN provider schedule and deemed hours for IR providers)
+13,Patient Available Hours,Patient Available Hours/Provider Available Hour,Provider Available Hours,Operational,Patient Available Hours/Exam Room Available Hour,36,Periodic,Periodic,,
+14,Visits,Visits/Patient Available Hour,Patient Available Hours,Strategic,Free Cash Flow,40,Periodic,Periodic,,Net Revenue/visit google sheet
+15,Patient Available Hours,Patient Available Hours,1,Operational,Visits/Patient Available Hour,41,Periodic,Periodic,,
+16,Ad Dollars,Ad Dollars/Patient Available Hour,Patient Available Hours,Operational,Visits/Patient Available Hour,42,Periodic,Periodic,y,Supermetrics gooogle sheet + others
+17,Impressions,Impressions/Ad Dollar,Ad Dollars,Operational,Visits/Patient Available Hour,43,Periodic,Periodic,y,Supermetrics gooogle sheet + others
+18,Clicks,Clicks/Impression,Impressions,Operational,Visits/Patient Available Hour,44,Periodic,Periodic,y,Supermetrics gooogle sheet + others
+19,Prospects,Prospects/Click,Clicks,Operational,Visits/Patient Available Hour,45,Periodic,Periodic,y,Supermetrics gooogle sheet + others
+20,Leads,Leads/Prospect,Prospects,Operational,Visits/Patient Available Hour,46,Periodic,Periodic,y,Supermetrics gooogle sheet + others
+21,Opportunities,Opportunities/Lead,Leads,Operational,Visits/Patient Available Hour,47,Periodic,Periodic,y,Supermetrics gooogle sheet + others
+22,Net Revenue,Net Revenue/Visit,Visits,Strategic,Free Cash Flow,50,Periodic,Periodic,,Net Revenue/visit google sheet
+23,Visits,Visits,1,Operational,Net Revenue/Visit,51,Periodic,Periodic,p,Net Revenue/visit google sheet
+24,Procedures,Procedures/Visit,Visits,Operational,Net Revenue/Visit,52,Periodic,Periodic,p,Net Revenue/visit google sheet
+25,Gross Revenue,Gross Revenue/Procedure,Procedures,Operational,Net Revenue/Visit,53,Periodic,Periodic,p,Net Revenue/visit google sheet
+26,Net Revenue,Net Revenue/Gross Revenue,Gross Revenue,Operational,Net Revenue/Visit,54,Periodic,Periodic,p,Billing data for FHMS and VE
+27,EBITDA,EBITDA/Net Revenue,Net Revenue,Strategic,Free Cash Flow,60,Periodic,Periodic,,Income Statement from QBO => QB drivers google sheet
+28,Net Revenue,Net Revenue,1,Operational,EBITDA/Net Revenue,61,Periodic,Periodic,p,Billing data for FHMS and VE
+29,Total Employees,Total Employees/Net Revenue,Net Revenue,Operational,EBITDA/Net Revenue,62,Perpetual,Periodic,p,EBITDA staffing google sheet
+30,Staff Employees,Staff Employees/Total Employee,Total Employees,Operational,EBITDA/Net Revenue,63,Perpetual,Perpetual,p,EBITDA staffing google sheet
+31,Medical Support Staff,Medical Support Staff/Staff Employee,Staff Employees,Operational,EBITDA/Net Revenue,64,Perpetual,Perpetual,p,EBITDA staffing google sheet
+32,Providers,Providers/Med Support Staff,Medical Support Staff,Operational,EBITDA/Net Revenue,65,Perpetual,Perpetual,p,EBITDA staffing google sheet
+33,EBITDA,EBITDA/Providers,Providers,Operational,EBITDA/Net Revenue,66,Periodic,Perpetual,p,Income Statement from QBO => QB drivers google sheet
+34,Net Income,Net Income/EBITDA,EBITDA,Strategic,Free Cash Flow,70,Periodic,Periodic,,Income Statement from QBO => QB drivers google sheet
+35,EBITDA,EBITDA,1,Operational,Net Income/EBITDA,71,Periodic,Periodic,p,
+36,EBIT,EBIT/EBITDA,EBITDA,Operational,Net Income/EBITDA,72,Periodic,Periodic,p,
+37,EBT,EBT/EBIT,EBIT,Operational,Net Income/EBITDA,73,Periodic,Periodic,p,
+38,Net Income,Net Income/EBT,EBT,Operational,Net Income/EBITDA,74,Periodic,Periodic,p,Income Statement from QBO => QB drivers google sheet
+39,CFO,Cash Flow From Operations/Net Income,Net Income,Strategic,Free Cash Flow,80,Periodic,Periodic,,Statement of cash flows from QBO => QB drivers google sheet
+40,Net Income,Net Income,1,Operational,Cash Flow From Operations/Net Income,81,Periodic,Count,,Income Statement from QBO => QB drivers google sheet
+41,CFO Non-cash Charges,CFNCA/Net Income,Net Income,Operational,Cash Flow From Operations/Net Income,82,Periodic,Periodic,,Cash Flow Statement from QBO => QB drivers google sheet
+42,CFO Additions to Working Capital,Cash Flow Additions to WC/CFNCA,CFO Non-cash Charges,Operational,Cash Flow From Operations/Net Income,83,Periodic,Periodic,,Cash Flow Statement from QBO => QB drivers google sheet
+43,CFO,Cash Flow From Operations/Cash Flow Additions to WC,CFO Additions to Working Capital,Operational,Cash Flow From Operations/Net Income,84,Periodic,Periodic,,Cash Flow Statement from QBO => QB drivers google sheet
+44,Free Cash Flow,Free Cash Flow/Cash Flow From Operations,CFO,Strategic,Free Cash Flow,90,Periodic,Periodic,,Statement of cash flows from QBO => QB drivers google sheet
+45,CFO,CFO,1,Operational,Free Cash Flow/CFO,91,Periodic,Count,,
+46,CFO+CFI,CFO+CFI/CFO,CFO,Operational,Free Cash Flow/CFO,92,Periodic,Periodic,,
+47,Free Cash Flow,Free Cash Flow/CFO+CFI,CFO+CFI,Operational,Free Cash Flow/CFO,93,Periodic,Periodic,,
+48,end Cash Balance,end Cash Balance/Free Cash Flow,,,,100,Perpetual,Periodic,,Balance sheet from QBO => QB Drivers google sheet

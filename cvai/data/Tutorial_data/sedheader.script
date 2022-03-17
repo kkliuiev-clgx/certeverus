@@ -1,0 +1,11 @@
+s/Region/Market/g
+s/,BU,/,Team,/g
+s/Sales Manager Code/Manager/g
+s/Sales Associate Name/Rep/g
+s/Cust_Name/Account/g
+s/Product Description 1/Product Line/g
+s/Invoice Number/Invoice/g
+s/Sku/SKU/g
+s/Ordered Quantity/Items/g
+s/Net Sales/Revenue/g 
+

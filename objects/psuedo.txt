@@ -1,0 +1,23 @@
+recursive_conversion(tuple)
+1. list = tuple.toList()
+2. val = recursionCalc(list)
+3. return val
+
+recursion_calc(list)
+1. if list.size > 2 :
+    frac = list[0]/list[1]
+    list.pop(0)
+    return frac*recursionCalc(list)
+2. else:
+    return list[0]/list[1]*list[1]
+
+
+
+iteraive_conversion(tuple)
+1. list = tuple.toList()
+2. val = 1
+2. while list.size >= 2 :
+    val = val * list[0]/list[1]
+    pop(0)
+3. val = val*list[0]
+4. return val

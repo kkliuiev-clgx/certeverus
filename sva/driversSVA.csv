@@ -1,0 +1,18 @@
+Driver,Metric,Denominator,Order,Level,Parent
+Free Cash Flow/Net Income,Free Cash Flow,Net Income,1,Strategic,EBIT
+NI/EBITDA,Net Income,EBITDA,2,Strategic,EBIT
+EBITDA/Gross Profit,EBITDA,Gross Profit,3,Strategic,EBIT
+Gross Profit/Revenue,Gross Profit,Revenue,4,Strategic,EBIT
+REVENUE/ASSETS,Revenue,Total Assets,5,Strategic,EBIT
+ASSETS,Total Assets,1,6,Strategic,EBIT
+WACC %,WACC %,,1,NONDRIVER,NONDRIVER
+Enterprise Value ($M),Enterprise Value ($M),,1,NONDRIVER,NONDRIVER
+Operating Income,Operating Income,,1,NONDRIVER,NONDRIVER
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,

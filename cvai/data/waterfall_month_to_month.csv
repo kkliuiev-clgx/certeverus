@@ -1,0 +1,13 @@
+,Date,Driver,Scenario,DriverValue,invisible,BarColor,Measure
+0,2020-09-01,"Aug, 2020",Change Values,1393070.0699999984,0.0,#729BC7,absolute
+1,2020-09-01,Account/Rep,Change Values,36905.458494437444,1393070.0699999984,Green,relative
+2,2020-09-01,Invoice/Product Line,Change Values,-19294.034393205526,1429975.5284944358,Red,relative
+3,2020-09-01,Items/SKU,Change Values,-97613.30422441398,1410681.4941012303,Red,relative
+4,2020-09-01,Manager/Team,Change Values,0.0,1313068.1898768162,#b4b2b3,relative
+5,2020-09-01,Market,Change Values,0.0,1313068.1898768162,#b4b2b3,relative
+6,2020-09-01,Product Line/Cust Name,Change Values,-78781.35055553932,1313068.1898768162,Red,relative
+7,2020-09-01,Rep/Manager,Change Values,-64331.88425459489,1234286.8393212769,Red,relative
+8,2020-09-01,Revenue/Items,Change Values,-68892.68318222027,1169954.955066682,Red,relative
+9,2020-09-01,SKU/Invoice,Change Values,36199.98811553766,1101062.2718844619,Green,relative
+10,2020-09-01,Team/Market,Change Values,0.0,1137262.2599999995,#b4b2b3,relative
+11,2020-09-01,"Sep, 2020",Change Values,1137262.2599999995,0.0,#729BC7,absolute

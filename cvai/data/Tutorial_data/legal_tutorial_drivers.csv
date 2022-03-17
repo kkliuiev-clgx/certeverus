@@ -1,0 +1,8 @@
+Metric,Driver,Denominator,Level,Parent,Order,Numerator Type,Denominator Type,ChangeColumns,Attributes,Label,Format,Metric Format
+Net Revenue,Net Revenue/Billed Revenue,Billed Revenue,Operational,Net Revenue,106,sum,,,"Billing_Pro,Practice",Net to Billed,.2f%,"$,.0f"
+Billed Revenue,Billed Revenue/Billable Hours,Billable Hours,Operational,Net Revenue,105,sum,,,"Billing_Pro,Practice",Rates,"$,.0f","$,.0f"
+Billable Hours,Billable Hours/Matters,Matters,Operational,Net Revenue,104,sum,,,"Billing_Pro,Practice",Matter Size,.1f,.1f
+Matters,Matters/Clients,Clients,Operational,Net Revenue,103,sum,,,"Billing_Pro,Practice",Breadth,.1f,d
+Clients,Clients/Available Hours,Available Hours,Operational,Net Revenue,102,sum,,,"Billing_Pro,Practice",Coverage,.3f,d
+Available Hours,Available Hours/Billing_Pro,Billing_Pro,Operational,Net Revenue,101,sum,,,"Billing_Pro,Practice",Capacity,.1f,.1f
+Billing_Pro,Billing Pro,1,Operational,Net Revenue,100,nunique,,,,Staffing,.1f,d

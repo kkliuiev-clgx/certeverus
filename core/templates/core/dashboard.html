@@ -1,0 +1,11 @@
+{% extends "core/base.html" %}
+{% load render_bundle from webpack_loader %}
+
+{% block title %}{{title}} - CerteVerus{% endblock title %}
+
+{% block vue_injection_code %}
+    <div id="data" data-django="{{data}}"></div>
+    <Dashboard id="dashboard"></Dashboard>
+  
+    {% render_bundle 'dashboard' %}
+{% endblock vue_injection_code %}

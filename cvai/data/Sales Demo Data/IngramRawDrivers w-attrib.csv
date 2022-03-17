@@ -1,0 +1,11 @@
+﻿Metric,Driver,Denominator,Level,Parent,Order,Numerator Type,Denominator Type,ChangeColumns,Attributes
+Net Sales,Net Sales/Ordered Quantity,Ordered Quantity,Operational,Net Sales,111,sum,Periodic,,"Cust_Name,Category,Vendor Name,Product Description 1,Sales Associate Name,State Code,New Region,Training CAS,Pro CAS,CAE,Category,BU"
+Ordered Quantity,Ordered Quantity/Sku,Sku,Operational,Net Sales,110,sum,Count,,"Cust_Name,Category,Vendor Name,Product Description 1,Sales Associate Name,State Code,New Region,Training CAS,Pro CAS,CAE,Category,BU"
+Sku,Sku/Invoice Number,Invoice Number,Operational,Net Sales,109,nunique,Count,,"Cust_Name,Category,Vendor Name,Product Description 1,Sales Associate Name,State Code,New Region,Training CAS,Pro CAS,CAE,Category,BU"
+Invoice Number,Invoice Number/Product Description 1,Product Description 1,Operational,Net Sales,107,nunique,Count,Invoice Number,"Cust_Name,Category,Vendor Name,Product Description 1,Sales Associate Name,State Code,New Region,Training CAS,Pro CAS,CAE,Category,BU"
+Product Description 1,Product Description 1/Cust Name,Cust_Name,Operational,Net Sales,108,nunique,Count,,"Cust_Name,Category,Vendor Name,Product Description 1,Sales Associate Name,State Code,New Region,Training CAS,Pro CAS,CAE,Category,BU"
+Cust_Name,Cust_Name/Sales Associate Name,Sales Associate Name,Operational,Net Sales,106,nunique,Perpetual,,"Cust_Name,Category,Vendor Name,Product Description 1,Sales Associate Name,State Code,New Region,Training CAS,Pro CAS,CAE,Category,BU"
+Sales Associate Name,Sales Associate Name/Sales Manager Code,Sales Manager Code,Operational,Net Sales,105,nunique,Perpetual,,"CAE,Pro CAS,Training CAS,Sales Associate Name"
+Sales Manager Code,Sales Manager Code/BU,BU,Operational,Net Sales,104,nunique,Perpetual,,
+BU,BU/Region,Region,Operational,Net Sales,102,nunique,Periodic,,
+Region,Region,1,Operational,Net Sales,103,nunique,Perpetual,,
